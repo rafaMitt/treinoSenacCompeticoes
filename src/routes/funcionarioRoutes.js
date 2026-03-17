@@ -1,6 +1,5 @@
 import express from 'express';
 import {
-
     listarFuncionarios,
     inserirFuncionario
 } from '../controllers/funcionarioController.js'

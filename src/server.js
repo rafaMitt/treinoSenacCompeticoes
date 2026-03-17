@@ -7,7 +7,6 @@ const app = express();
 
 app.use(express.json());
 app.use('/funcionarios', funcionarioRoutes);
-app.use(express.static('public'));
 
 const PORT = process.env.POR || 3000;
 
