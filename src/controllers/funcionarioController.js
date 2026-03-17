@@ -12,7 +12,7 @@ export const listarFuncionarios = (req, res) => {
 export const inserirFuncionario = (req,res) => {
 
     const { nome, cargo, salario } = req.body;
-    const sql = 'INSERT INTO funcionarios(nome,cargo,salario) VALUES(?, ?, ?,)'
+    const sql = 'INSERT INTO funcionarios( nome, cargo, salario ) VALUES( ?, ?, ? )'
 
     db.query(sql, [nome,cargo,salario], err => {
 
@@ -20,4 +20,3 @@ export const inserirFuncionario = (req,res) => {
         res.json({mensagem:'Funcionário inserido com sucesso!'});
     });
 }
-
