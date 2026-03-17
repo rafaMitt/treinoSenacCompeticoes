@@ -17,7 +17,7 @@ export const inserirFuncionario = (req,res) => {
     db.query(sql, [nome,cargo,salario], err => {
 
         if(err) return res.status(500).json ({ erro:'Erro ao inserir funcionário'});
-        res.jason({mensagem:'Funcionário inserido com sucesso!'});
+        res.json({mensagem:'Funcionário inserido com sucesso!'});
     });
 }
 
