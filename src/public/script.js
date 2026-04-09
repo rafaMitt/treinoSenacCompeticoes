@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const API_URL = 'http://localhost:3000/funcionarios'
 
 async function carregarFuncionarios() {
@@ -73,3 +74,5 @@ async function excluirUsuario(id) {
     carregarFuncionarios();
     };
 };
+=======
+>>>>>>> 88a8cd399a802f3f3d7f4930f458167525d7d23f

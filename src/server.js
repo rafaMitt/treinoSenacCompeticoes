@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import express from 'express'
 import dotenv from 'dotenv'
 import funcionarioRoutes from './routes/funcionarioRoutes.js'
@@ -14,3 +15,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`)
 });
+=======
+>>>>>>> 88a8cd399a802f3f3d7f4930f458167525d7d23f
